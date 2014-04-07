@@ -1,0 +1,50 @@
+%\VignetteIndexEntry{Modern Statistics for Biology}
+%\VignettePackage{MSBdata}
+%\VignetteEngine{knitr::knitr}
+
+% To compile this document
+% library('knitr'); rm(list=ls()); knit('MSBdata.Rnw')
+
+\documentclass[12pt]{article}
+
+<<knitr, echo=FALSE, results="hide">>=
+library("knitr")
+opts_chunk$set(tidy=FALSE,dev="png",fig.show="hide",
+               fig.width=4,fig.height=4.5,
+               message=FALSE)
+@ 
+
+<<style, eval=TRUE, echo=FALSE, results="asis">>=
+BiocStyle::latex()
+@
+
+<<loadDESeq2, echo=FALSE>>=
+library("MSBdata")
+@
+
+
+\author{Andrzej Ole\`s, Wolfgang Huber \\[1em] \small{$^{1}$ European Molecular Biology Laboratory (EMBL), Heidelberg, Germany}}
+
+\title{}
+\begin{document}
+
+\maketitle
+
+\section{Provenance of the image data files}
+Where downloaded, what done for downsampling.
+
+\section{Session Info}
+
+<<sessInfo, results="asis", echo=FALSE>>=
+toLatex(sessionInfo())
+@
+
+<<resetOptions, results="hide", echo=FALSE>>=
+options(prompt="> ", continue="+ ")
+@ 
+
+
+
+\bibliography{library}
+
+\end{document}
