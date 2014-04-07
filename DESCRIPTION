@@ -1,0 +1,9 @@
+Package: MSBdata
+Title: Data sets for the book 'Modern Statistics for Biology'
+Version: 0.0.1
+Author: Wolfgang Huber and Andrzej Oles
+Description: Data sets for the book 'Modern Statistics for Biology'
+Maintainer: Wolfgang Huber <whuber@embl.de>
+License: LGPL
+Depends: 
+biocViews: ExperimentData
