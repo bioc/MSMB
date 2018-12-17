@@ -1,9 +1,9 @@
-%\VignetteIndexEntry{Modern Statistics for Biology}
-%\VignettePackage{MSBdata}
+%\VignetteIndexEntry{Modern Statistics for Modern Biology}
+%\VignettePackage{MSMB}
 %\VignetteEngine{knitr::knitr}
 
 % To compile this document
-% library('knitr'); rm(list=ls()); knit('MSBdata.Rnw')
+% library('knitr'); rm(list=ls()); knit('MSMB.Rnw')
 
 \documentclass[12pt]{article}
 
@@ -19,7 +19,7 @@ BiocStyle::latex()
 @
 
 <<loadDESeq2, echo=FALSE>>=
-library("MSBdata")
+library("MSMB")
 @
 
 
