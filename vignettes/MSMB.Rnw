@@ -43,8 +43,4 @@ toLatex(sessionInfo())
 options(prompt="> ", continue="+ ")
 @ 
 
-
-
-\bibliography{library}
-
 \end{document}
