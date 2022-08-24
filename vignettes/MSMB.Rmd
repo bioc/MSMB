@@ -1,0 +1,31 @@
+---
+title: "Data sets for the book 'Modern Statistics for Biology'"
+author: "Wolfgang Huber"
+package: MSMB
+output:
+  BiocStyle::html_document:
+    toc: true
+vignette: >
+  %\VignetteIndexEntry{Data sets for the book 'Modern Statistics for Biology'}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding[utf8]{inputenc}
+---
+
+# Demo
+
+(Online version of the book)[https://www.huber.embl.de//msmb]
+
+```{r demo}
+library("MSMB")
+dir(system.file("extdata", package = "MSMB"))
+dir(system.file("images", package = "MSMB"))
+dir(system.file("data", package = "MSMB"))
+dir(system.file("scripts", package = "MSMB"))
+```
+
+# Session Info
+
+```{r sessInfo}
+sessionInfo()
+```
+
