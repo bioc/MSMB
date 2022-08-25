@@ -1,12 +1,12 @@
 Package: MSMB
 Title: Data sets for the book 'Modern Statistics for Biology'
-Version: 1.15.1
+Version: 1.15.2
 Author: Wolfgang Huber, Andrzej Oles, Mike Smith
 Description: Data sets for the book 'Modern Statistics for Modern Biology', 
   S.P. Holmes and W. Huber.
-Maintainer: Wolfgang Huber <whuber@embl.de>
+Maintainer: Wolfgang Huber <wolfgang.huber@embl.org>
 License: LGPL
 Depends: R (>= 3.5), tibble
 Suggests: knitr, BiocStyle
 VignetteBuilder: knitr
-biocViews: ExperimentData, ReproducibleResearch 
+biocViews: ExperimentData

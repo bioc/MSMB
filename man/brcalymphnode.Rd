@@ -2,10 +2,12 @@
 \docType{data}
 \alias{brcalymphnode}
 
-\title{Coordinates and cell types in a histopathology slides of a breast
-  cancer patients lymph node.}
+\title{Coordinates and cell types in a histopathology slide of a breast
+  cancer patient's lymph node}
 
-\description{}
+\description{Coordinates and cell types in a histopathology slide of a breast
+  cancer patient's lymph node.}
+
 \usage{
   data("brcalymphnode")
 }
@@ -14,7 +16,7 @@
 
 \details{
 This dataset is used as an example in the 'Image data' chapter. See
-there for more details.
+there for more details about it.
 }
 
 
